@@ -1,0 +1,71 @@
+ <div class="row" style="margin-top: 5px">
+  
+  <div class="card col-md-4" >
+  <img class="card-img-top" src="src/assets/images/naruto.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{anything}}</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+
+  <div class="card col-md-4" >
+  <img class="card-img-top" src="src/assets/images/naruto.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+
+
+<div class="card col-md-4" >
+  <img class="card-img-top" src="src/assets/images/naruto.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+<a routerLink="/test">test me!</a>
+<router-outlet></router-outlet>
+
+
+
+<div>
+
+    <br>
+    <br>
+
+  <form  >
+    <div class="form-group">
+      <label for="my-input">Name: {{person.name}}</label>
+      <input id="my-input" class="form-control" type="text" name="name" [(ngModel)]="person.name">
+    </div>
+    <div class="form-group">
+      <label for="my-input">Email: {{person.email}}</label>
+      <input id="my-input" class="form-control" type="email" name="email" [(ngModel)]="person.email">
+    </div>
+    <div class="form-group">
+      <label for="my-input">Phone: {{person.phone}}</label>
+      <input id="my-input" class="form-control" type="number" name="phone" [(ngModel)]="person.phone">
+    </div>
+
+    <button type="button" name="" id="" class="btn btn-primary btn-lg btn-block" (click)="clickMe()">Pressing somtin</button>
+    
+    
+  </form>
+  <br>
+  <br>
+
+  <br>
+  <br>
+
+</div>
+
+<!-- <button class="success" (click)="goto(2)">Press Me</button> -->
+
+</div>
